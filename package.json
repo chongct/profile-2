@@ -19,7 +19,8 @@
   "homepage": "https://github.com/chongct/profile-2#readme",
   "dependencies": {
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "three": "^0.120.1"
   },
   "devDependencies": {
     "@babel/core": "^7.11.4",
