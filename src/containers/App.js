@@ -3,6 +3,8 @@ import * as THREE from 'three';
 
 import threeHelper from '../three';
 
+import styles from './app.scss';
+
 class App extends Component {
   constructor() {
     super();
@@ -22,7 +24,7 @@ class App extends Component {
 
   render() {
     return (
-      <div ref={this.appRef} />
+      <div className={styles.test} ref={this.appRef} />
     )
   }
 }
